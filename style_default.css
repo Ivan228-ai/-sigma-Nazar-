@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 24px;
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.banner{
+	color: white;
+		display: flex;
+			flex-direction: column;
+				align-items: center;
+					justify-content: center;
+						flex-grow: 1;
+							color: white;
+}
+
+.banner h1{
+	font-size: 50px;
+}
+.banner p {
+	font-size: 15px;
+		text-align: center;
+			width: 60%;
+				padding: 30px;
+}
+
+.button {
+	background-color: orange;
+		padding: 15px 20px;
+			border-radius: 10px;
+				color: black;
+
+}
+
+.menu li  a:hover{
+	color: orange;
+		transition: 0.9s;
+}
+button:hover {
+		background-color: #8c6900;
+			transition: 0.9s;
+				
+}
+
